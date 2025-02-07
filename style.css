@@ -1,0 +1,40 @@
+body {
+  font-family: consolas;
+  background-color: #0d1117;
+  color: antiquewhite;
+}
+h1 {
+  color: greenyellow;
+}
+a {
+  color: gray;
+  text-decoration: none;
+}
+a:hover {
+  color: greenyellow;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+a::after {
+  content: "🚇";
+}
+
+ul > li {
+  font-weight: bold;
+  text-shadow: 4px 4px 3px greenyellow;
+}
+ul li:hover {
+  color: gray;
+  text-shadow: 4px 4px 3px greenyellow;
+}
+ul li:nth-child(3) {
+  background-color: yellow;
+}
+ul li::before {
+  content: "⛴";
+}
+p::frist-letter {
+  font-size: 150%;
+  color: greenyellow;
+}
